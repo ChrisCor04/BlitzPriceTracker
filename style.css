@@ -1,0 +1,78 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+.ribbon{
+    padding-top: 10px;
+    background: black; 
+    font-family: calibri; 
+    padding-right: 15px; 
+    padding-left: 15px;
+    min-height: 60px;
+}
+.ribbondiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo a{
+    color: rgb(177, 216, 241); font-size: 35px; font-weight: 600;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: rgb(253, 255, 255); font-size: 18px; font-weight: bold; margin: 25px;
+}
+button{
+    background-color: cyan; margin-left: 10px; border-radius: 10px;
+    padding: 10px; width: 90px;
+}
+
+.backscreen{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgb(68, 127, 238), rgb(189, 230, 243));
+}
+.welcomescrn{
+    width: 1200px;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.welcomescrn .par{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.welcomescrn h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+.stonkimg{
+    display: flex;
+    padding-left: 800px;
+    width: 500px;
+}
+.welcomewrap{
+    display: flex;
+    justify-content: space-between; /* or flex-end/center depending on the effect */
+    align-items: center;
+    padding: 40px;
+}
+.stonkimg{
+    width: 500px;
+    transform: translateY(-200px);
+}
+.stonkimg img{
+    width: 1000px;
+    height: auto;
+}
