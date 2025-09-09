@@ -1,6 +1,6 @@
 
 
-
+// Price Search Front-End
 const cardInput = document.getElementById('cardsName');
 const cardButton = document.getElementById('cardSubmit');
 const cardResults = document.getElementById('cardResults');
